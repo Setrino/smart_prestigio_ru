@@ -4,7 +4,7 @@
 }
 
 *{
- font-family: Roboto;
+    font-family: Roboto;
 }
 
 body{
@@ -109,6 +109,12 @@ li{
     text-decoration: none;
 }
 
+.empty{
+    height: 60px;
+    width: 1px;
+    display: block;
+}
+
 
 @media screen and (max-width: 930px) {
 
@@ -140,6 +146,12 @@ li{
     .right ul {
         position: relative;
         left: 20px;
+    }
+
+    .right h1{
+        position: relative;
+        top: 40px;
+        font-size: 40px;
     }
 
     .right .btn{
