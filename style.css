@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Thin.ttf);
+}
+
+*{
+ font-family: Roboto;
+}
+
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+
+ul{
+    padding: 0 10px;
+}
+
+.logo{
+    width: 20%;
+}
+
+.slogan{
+    width: 10%;
+}
+
+.logo, .slogan{
+    display: block;
+}
+
+.logo_block{
+    position: relative;
+    height: 100px;
+    top: 40px;
+}
+
+.screen{
+    position: relative;
+    width: 120%;
+    top: 50px;
+    right: 50px;
+}
+
+.left{
+    float: left;
+    width: 50%;
+}
+
+.right{
+    float: right;
+    width: 40%;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+}
+
+h4, h5, li{
+    width: 60%;
+    color: #ACACAC;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+h4{
+    color: #2d415c;
+    font-size: 20px;
+}
+
+li{
+    padding-top: 2%;
+    text-align: left;
+}
+
+.btn{
+    position: relative;
+    left: 35%;
+    top: 20px;
+}
+
+.btn {
+    background: #8cc83c;
+    background-image: -webkit-linear-gradient(top, #8cc83c, #8cc83c);
+    background-image: -moz-linear-gradient(top, #8cc83c, #8cc83c);
+    background-image: -ms-linear-gradient(top, #8cc83c, #8cc83c);
+    background-image: -o-linear-gradient(top, #8cc83c, #8cc83c);
+    background-image: linear-gradient(to bottom, #8cc83c, #8cc83c);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #75ab2c;
+    background-image: -webkit-linear-gradient(top, #75ab2c, #75ab2c);
+    background-image: -moz-linear-gradient(top, #75ab2c, #75ab2c);
+    background-image: -ms-linear-gradient(top, #75ab2c, #75ab2c);
+    background-image: -o-linear-gradient(top, #75ab2c, #75ab2c);
+    background-image: linear-gradient(to bottom, #75ab2c, #75ab2c);
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 930px) {
+
+    body, .right, .left, .logo_block{
+        width: 100%;
+    }
+
+    body > div > div.left > div:nth-child(1) > img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .logo, .slogan{
+        display: block;
+        position: relative;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .slogan{
+        top: 10px;
+        width: 50%;
+    }
+
+    .logo_block{
+        height:150px;
+    }
+
+    .right ul {
+        position: relative;
+        left: 20px;
+    }
+
+    .right .btn{
+        left: 35%;
+    }
+}
